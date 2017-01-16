@@ -1,0 +1,22 @@
+{
+  "name": "js_function_test_cases",
+  "version": "1.0.0",
+  "description": "",
+  "main": "multiplyThem.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oyamasiphula/jsFunctionsTestCases.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oyamasiphula/jsFunctionsTestCases/issues"
+  },
+  "homepage": "https://github.com/oyamasiphula/jsFunctionsTestCases#readme",
+  "dependencies": {
+    "mocha": "^3.2.0"
+  }
+}
