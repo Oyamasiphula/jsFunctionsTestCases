@@ -6,6 +6,6 @@ describe("Javascript continous intergration", function() {
         assert.equal(6, multiplicationOf2Dig.multiplyThem(3, 1));
     });
     it('Should test for the multiplication function should intentionally pass', function() {
-        assert.equal(6, multiplicationOf2Dig.multiplyThem(3, 1));
+        assert.equal(6, multiplicationOf2Dig.multiplyThem(3, 2));
     });
 });
