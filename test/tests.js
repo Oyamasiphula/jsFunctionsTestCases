@@ -17,6 +17,6 @@ describe("Javascript continous intergration ", function() {
         assert.equal("This is funcOne`s result", advancedFunctUsage.funcOne("This is funcOne`s result"));
     });
     it('Should test for the first function`s and 2nd function to pass function1`s result', function() {
-        assert.equal("This is funcOne`s result", advancedFunctUsage.execFunc(funcOne));
+        assert.equal("This is funcOne`s result", advancedFunctUsage.execFunc(advancedFunctUsage.funcOne));
     });
 });
