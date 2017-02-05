@@ -1,8 +1,9 @@
 const assert = require("assert");
 const multiplicationOf2Dig = require("../multiplyThem");
 const addThem = require("../paramsDemo");
-const checkRegitrationNumber = require("../advancedFunctions");
-const advancedFunctUsage = require("../checkRegitrationNumber");
+const advancedFunctUsage = require("../advancedFunctions");
+const chekRegistrationNumber = require("../chekRegistrationNumber");
+const differentScopes = require("../differentScopes");
 
 
 describe("Javascript continous intergration ", function() {
@@ -21,7 +22,10 @@ describe("Javascript continous intergration ", function() {
     it('Should test for the first function`s and 2nd function to pass function1`s result', function() {
         assert.equal("This is funcOne`s result", advancedFunctUsage.execFunc(advancedFunctUsage.funcOne));
     });
-    it('Should test for the checkPlateNo (isFromBellville', function() {
-        assert.equal("This is funcOne`s result", advancedFunctUsage.advancedFunctUsage(advancedFunctUsage.funcOne));
+    it('Should test for the checkPlateNo function with plate number 1 param isFromBellville', function() {
+        assert.equal(true, chekRegistrationNumber.isFromBellville("CY 123"));
+    });
+    it('Should test for the function favSport which uses a polluted global variables ', function() {
+        assert.equal("David Blankit's favourate sport is Golf", differentScopes.favSport());
     });
 });
