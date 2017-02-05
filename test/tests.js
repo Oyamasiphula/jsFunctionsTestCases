@@ -4,6 +4,7 @@ const addThem = require("../paramsDemo");
 const advancedFunctUsage = require("../advancedFunctions");
 const chekRegistrationNumber = require("../chekRegistrationNumber");
 const differentScopes = require("../differentScopes");
+const declaringVScalling = require("../declaringVScalling");
 
 
 describe("Javascript continous intergration ", function() {
@@ -27,5 +28,11 @@ describe("Javascript continous intergration ", function() {
     });
     it('Should test for the function favSport which uses a polluted global variables ', function() {
         assert.equal("David Blankit's favourate sport is Golf", differentScopes.favSport());
+    });
+    it('Should test for the function essential code blocks creating vs done then execute process ', function() {
+        assert.equal("function", typeof(declaringVScalling.theFunction));
+    });
+    it('Should test for the function creating vs done then execute to get an output as a typeof(value) of a function ', function() {
+        assert.equal("string", typeof(declaringVScalling.theFunction()));
     });
 });
