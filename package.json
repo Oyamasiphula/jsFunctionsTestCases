@@ -2,10 +2,10 @@
   "name": "js_function_test_cases",
   "version": "1.0.0",
   "description": "",
-  "main": "multiplyThem.js",
   "scripts": {
+  "main": "multiplyThem.js",
     "test_pack_install_com": "sudo npm install",
-    "test_method_2": "npm test",
+    "test_method2": "npm test",
     "test": "mocha"
   },
   "repository": {
