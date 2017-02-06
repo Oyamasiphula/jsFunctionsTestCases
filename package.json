@@ -4,7 +4,6 @@
   "description": "",
   "main": "multiplyThem.js",
   "scripts": {
-
     "test_pack_install_com": "sudo npm install",
     "test_method_2": "npm test",
     "test": "mocha"
