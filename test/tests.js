@@ -4,9 +4,9 @@ const addThem = require("../paramsDemo");
 const advancedFunctUsage = require("../advancedFunctions");
 const chekRegistrationNumber = require("../chekRegistrationNumber");
 const differentScopes = require("../differentScopes");
-const declaringVScalling = require("../declaringVScalling");
+var declaringVScalling = require("../declaringVScalling");
 const greet = require("../greet");
-const isFromLocation = require("../isFromLocation");
+var isFromLocation = require("../isFromLocation");
 
 
 describe("Javascript continous intergration ", function() {
