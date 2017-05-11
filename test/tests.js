@@ -4,6 +4,7 @@ const addThem = require("../paramsDemo");
 const advancedFunctUsage = require("../advancedFunctions");
 const chekRegistrationNumber = require("../chekRegistrationNumber");
 const differentScopes = require("../differentScopes");
+
 var declaringVScalling = require("../declaringVScalling");
 const greet = require("../greet");
 var isFromLocation = require("../isFromLocation");
