@@ -46,6 +46,5 @@ describe("Javascript continous intergration ", function() {
     });
     it('should test for reg check CA and should be able to return false/true with the use of 1 param only, but diff data should be different', function() {
         assert.equal(false, isFromLocation.isFromCapeTown("CJ 123 908"));
-
     });
 });

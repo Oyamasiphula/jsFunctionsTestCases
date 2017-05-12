@@ -1,6 +1,5 @@
-var isFromCapeTown = function(para) {
-    var isItFromCA = para.startsWith("CA");
+var isFromCapeTown = function(param) {
+    var isItFromCA = param.startsWith("CA");
     return isItFromCA;
 };
-isFromCapeTown("CA 123 908")
 exports.isFromCapeTown = isFromCapeTown;
