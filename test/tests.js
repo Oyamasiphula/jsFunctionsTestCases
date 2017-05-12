@@ -41,10 +41,10 @@ describe("Javascript continous intergration ", function() {
     it('should test for the greet function and should be able to greet anyone 1 param use only', function() {
         assert.equal("Hello, Janine", greet.greet("Janine"));
     });
-    it('should test for reg check CA and should be able to return false/true with the use of 1 param only but diff data', function() {
+    it('should test for reg check CA and should return true', function() {
         assert.equal(true, isFromLocation.isFromCapeTown("CA 123 908"));
     });
-    it('should test for reg check CA and should be able to return false/true with the use of 1 param only, but diff data should be different', function() {
+    it('should test for reg check CA and should return false with the use of 1 param but with different data', function() {
         assert.equal(false, isFromLocation.isFromCapeTown("CJ 123 908"));
     });
 });
